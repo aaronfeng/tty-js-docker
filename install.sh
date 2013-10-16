@@ -5,4 +5,5 @@ echo "deb http://archive.ubuntu.com/ubuntu precise universe" >> /etc/apt/sources
 add-apt-repository -y ppa:chris-lea/node.js
 apt-get update
 apt-get install -y nodejs
+apt-get install -y vim
 npm install tty.js

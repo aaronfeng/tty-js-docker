@@ -28,5 +28,5 @@ Run the container (takes a few seconds to boot).
 sudo docker run -p :7777 tty-js
 ```
 
-Using your browser on the host machine, go to [localhost:7777](http://localhost:7777)
+Using your browser on the host machine, go to [192.168.33.10:7777](http://192.168.33.10/:7777)
 to see your awesome [tty.js terminal](https://github.com/chjj/tty.js)

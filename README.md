@@ -22,11 +22,12 @@ vagrant up && vagrant ssh
 /vagrant/build.sh
 ```
 
-Run the container (takes a few seconds to boot).
+# Run
 
 ```
 sudo docker run -p :7777 tty-js
 ```
 
+It will take a few seconds to boot.
 Using your browser on the host machine, go to [192.168.33.10:7777](http://192.168.33.10/:7777)
-to see your awesome [tty.js terminal](https://github.com/chjj/tty.js)
+to see your awesome [tty.js terminal](https://github.com/chjj/tty.js) connected into a docker image.

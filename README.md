@@ -1,3 +1,9 @@
+# Motivation
+
+Experimenting with running [tty.js terminal](https://github.com/chjj/tty.js) as daemon (-d) in order
+to get a live terminal to a running docker container.  Some application process will run in the
+foreground (not included in this project).  This might be useful to inspect a running container while it is running.
+
 # Install
 
 ```

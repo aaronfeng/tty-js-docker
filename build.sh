@@ -3,6 +3,8 @@
 #set -x
 set -e
 
+sudo apt-get update
+
 sudo apt-get install -y curl
 
 # Add the Docker repository key to your local keychain

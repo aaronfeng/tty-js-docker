@@ -25,5 +25,5 @@ cd /vagrant
 sudo docker build -t tty-js .
 echo "*********************************************"
 echo "Start up tty-js inside a container run:"
-echo "sudo docker run -p :7777 tty-js"
+echo "sudo docker run -p :7777:7777 tty-js"
 echo "*********************************************"
